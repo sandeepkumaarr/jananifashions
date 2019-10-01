@@ -9,7 +9,7 @@ class Directory extends React.Component {
             sections : [
                 {
                     title: 'New Arrivals',
-                    imageUrl:'https://i.ibb.co/FWbS0BQ/New-Arrivals.jpg',
+                    imageUrl:'https://i.ibb.co/NFSh8Yh/New-Arrivals.jpg',
                     id:'1',
                     routeName:'newarrivals',
                     items: [
