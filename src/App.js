@@ -1,5 +1,5 @@
 import React from 'react';
-import {Switch, Route} from 'react-router-dom';
+import {Switch, Route,Redirect } from 'react-router-dom';
 import { connect } from 'react-redux';
 import './App.css';
 import HomePage from './pages/homepage/homepage.component';
@@ -52,7 +52,7 @@ render(){
           <Switch>
             <Route exact path="/" component={HomePage} />
             <Route exact path="/ShopPage" component={ShopPage} />
-            <Route exact path="/signin" component={SignInAndSignOutPage} />
+            <Route exact path="/signin" render= {() => this.props.currentUser ? (<Redirect to='/'/>) : <SignInAndSignOutPage/>} />
           </Switch>  
           <Footer/>
       </div>
@@ -60,12 +60,12 @@ render(){
   }
 }
 
-//dispatch this user action to userreducer
-//dispatch is whatever object you are passing me will be an 
-//action object which I'm gonna pass to every reducer
-//setCurrentUser is an action and passing user in we are dispatching an object
+const mapSateToProps =({user})  => ({
+  currentUser : user.currentUser
+});
+
 const mapDispatchToProps = dispatch => ({
   setCurrentUser:user  => dispatch(setCurrentUser(user))
 });
 
-export default connect(null,mapDispatchToProps)(App);
+export default connect(mapSateToProps,mapDispatchToProps)(App);
