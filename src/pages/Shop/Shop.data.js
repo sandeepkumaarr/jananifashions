@@ -69,55 +69,55 @@ const SHOP_DATA = [
         routeName:'clothings',
         items: [
                     {
-                    id: 1,
+                    id: 11,
                     name: 'Boys Festive Party Kurta',
                     imageUrl: 'https://i.ibb.co/gFSHDjJ/Boys-Festive-Party-Kurta.jpg',
                     price: 25
                     },
                     {
-                    id: 2,
+                    id: 12,
                     name: 'Casual Full Sleeve Top',
                     imageUrl: 'https://i.ibb.co/JFtQcL0/Casual-Full-Sleeve-Top.jpg',
                     price: 18
                     },
                     {
-                    id: 3,
+                    id: 13,
                     name: 'Casual Self Design Denim',
                     imageUrl: 'https://i.ibb.co/pwRW3pN/Casual-Self-Design-Denim.jpg',
                     price: 35
                     },
                     {
-                    id: 4,
+                    id: 14,
                     name: 'Dark Blue T-Shirt',
                     imageUrl: 'https://i.ibb.co/LkN7JT0/Dark-Blue-T-Shirt.jpg',
                     price: 25
                     },
                     {
-                    id: 5,
+                    id: 15,
                     name: 'Full Length Festive Dress',
                     imageUrl: 'https://i.ibb.co/28fXx8c/Full-Length-Festive-Dress.jpg',
                     price: 18
                     },
                     {
-                    id: 6,
+                    id: 16,
                     name: 'Girls Midi',
                     imageUrl: 'https://i.ibb.co/680nTXn/Girls-Midi.jpg',
                     price: 14
                     },
                     {
-                    id: 7,
+                    id: 17,
                     name: 'Lehenga Choli',
                     imageUrl: 'https://i.ibb.co/HGZBNbp/Lehenga-Choli.jpg',
                     price: 18
                     },
                     {
-                    id: 8,
+                    id: 18,
                     name: 'Lehenga Fashionable',
                     imageUrl: 'https://i.ibb.co/JmBpQ3K/Lehenga-Fashionable.jpg',
                     price: 14
                     },
                     {
-                    id: 9,
+                    id: 19,
                     name: 'Slim Men Blue Jeans',
                     imageUrl: 'https://i.ibb.co/kXh1JQy/Slim-Men-Blue-Jeans.jpg',
                     price: 16
@@ -133,55 +133,55 @@ const SHOP_DATA = [
         routeName:'footwears',
         items: [
                     {
-                    id: 1,
+                    id: 21,
                     name: 'Bata Shoes',
                     imageUrl: 'https://i.ibb.co/VmCSKyy/Bata-Shoes.jpg',
                     price: 25
                     },
                     {
-                    id: 2,
+                    id: 22,
                     name: 'Blue Grey Floater Sandals',
                     imageUrl: 'https://i.ibb.co/JQ0x8Pc/Blue-Grey-Floater-Sandals.jpg',
                     price: 18
                     },
                     {
-                    id: 3,
+                    id: 23,
                     name: 'Boys Lace Sneakers',
                     imageUrl: 'https://i.ibb.co/fpV43Rr/Boys-Lace-Sneakers.jpg',
                     price: 35
                     },
                     {
-                    id: 4,
+                    id: 24,
                     name: 'Boys Velcro Running Shoes',
                     imageUrl: 'https://i.ibb.co/BBRPTdZ/Boys-Velcro-Running-Shoes.jpg',
                     price: 25
                     },
                     {
-                    id: 5,
+                    id: 25,
                     name: 'Men Brown Casual Sandal',
                     imageUrl: 'https://i.ibb.co/BVj2N85/Men-Brown-Casual-Sandal.jpg',
                     price: 18
                     },
                     {
-                    id: 6,
+                    id: 26,
                     name: 'Men Khaki Casual Sandal',
                     imageUrl: 'https://i.ibb.co/YNZ2KVs/Men-Khaki-Casual-Sandal.jpg',
                     price: 14
                     },
                     {
-                    id: 7,
+                    id: 27,
                     name: 'Mesh Running Shoes',
                     imageUrl: 'https://i.ibb.co/rpLCKhH/Mesh-Running-Shoes.jpg',
                     price: 18
                     },
                     {
-                    id: 8,
+                    id: 28,
                     name: 'Puma-Concave',
                     imageUrl: 'https://i.ibb.co/VxSrhNn/Puma-Concave.jpg',
                     price: 14
                     },
                     {
-                    id: 9,
+                    id: 29,
                     name: 'REEBOK Shoes For Women',
                     imageUrl: 'https://i.ibb.co/SP5YzQ0/REEBOK-Shoes-For-Women.jpg',
                     price: 16
