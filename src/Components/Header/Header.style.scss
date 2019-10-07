@@ -27,6 +27,17 @@
       .option {
         padding: 10px 15px;
         cursor: pointer;
+        font-weight: 900;
+      }
+      .green-signOut{
+        color: rgb(137, 219, 13);
+        border-bottom-style:dashed;
+        border-radius: 80%;
+      }
+      .red-signin{
+        color: rgb(248, 59, 74);
+        border-bottom-style:dashed;
+        border-radius: 80%;
       }
     }
   }
