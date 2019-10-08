@@ -311,7 +311,7 @@ const SHOP_DATA = [
                     },
                     {
                     id: 9,
-                    name: 'Terracotta Jewellery Set Choker',
+                    name: 'Terracotta Jewellery Set',
                     imageUrl: 'https://i.ibb.co/6D4SqHy/Terracotta-Jewellery-Set-Choker.png',
                     price: 160
                     }
