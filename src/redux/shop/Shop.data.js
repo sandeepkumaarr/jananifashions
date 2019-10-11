@@ -1,8 +1,8 @@
-const SHOP_DATA = [
-    {
-        title: 'New Arrivals',
+const SHOP_DATA = {
+    NewArrivals: {
+        title: 'NewArrivals',
         imageUrl:'https://i.ibb.co/FWbS0BQ/New-Arrivals.jpg',
-        id:'1',
+        id: 1,
         routeName:'newarrivals',
         items: [
                     {
@@ -62,10 +62,10 @@ const SHOP_DATA = [
             ]
     },
 
-    {
+    Clothings: {
         title: 'Clothings',
         imageUrl:'https://i.ibb.co/B6nP8yQ/Clothing.jpg',
-        id:'2',
+        id:2,
         routeName:'clothings',
         items: [
                     {
@@ -126,10 +126,10 @@ const SHOP_DATA = [
     },
 
 
-    {
+    Footwears: {
         title: 'Footwears',
         imageUrl:'https://i.ibb.co/m4KMsHZ/Footwears.jpg',
-        id:'3',
+        id:3,
         routeName:'footwears',
         items: [
                     {
@@ -190,11 +190,11 @@ const SHOP_DATA = [
     },
 
 
-    {
+    Watches :{
         title: 'Watches',
         imageUrl:'https://i.ibb.co/RDCrrf2/watches.jpg',
         size:'large',
-        id:'4',
+        id:4,
         routeName:'watches',
         items: [
                     {
@@ -254,11 +254,11 @@ const SHOP_DATA = [
                 ]
     },
 
-    {
-        title: 'Terracotta Jewellery',
+    TerracottaJewellery:{
+        title: 'TerracottaJewellery',
         imageUrl:'https://i.ibb.co/Bn2t04y/Handmade-Terracotta-Jewellery.png',
         size:'large',
-        id:'5',
+        id:5,
         routeName:'terracota',
         items: [
                     {
@@ -319,7 +319,7 @@ const SHOP_DATA = [
 
         }
         
- ]  
+    }
 
 
  export  default SHOP_DATA;

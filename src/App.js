@@ -54,7 +54,7 @@ render(){
           <Header />    
           <Switch>
             <Route exact path="/" component={HomePage} />
-            <Route exact path="/ShopPage" component={ShopPage} />
+            <Route path="/ShopPage" component={ShopPage} />
             <Route exact path="/checkout" component={CheckOutPage} />
             <Route exact path="/signin" render= {() => this.props.currentUser ? (<Redirect to='/'/>) : <SignInAndSignOutPage/>} />
           </Switch>  
